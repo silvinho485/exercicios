@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+  <title>Aula 3</title>
+  <meta charset="utf-8">
+  <style>
+  body{
+    background-color: #f2f2f2 ;
+    height: 100%;
+    width: 100%;
+  }
+
+  .danger{
+    border: 3px solid red;
+    color: red;
+  }
+
+  label{
+    width: 250px;
+}
+input {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+  </style>
+</head>
+<body>
+  <form action="#" mehtod="GET">
+    <h1 class="danger">Este é meu exemplo de formulario</h1>
+    <legend>Validaremos os campos como JavaScript</legend>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" placeholder="Insira seu nome aqui!" autofocus>
+    <br>
+    <label for="senha">Senha</label>
+    <input type="password" placeholder="Senha">
+    <br>
+    <label for="idade">Sua idade</label>
+    <input type="number" placeholder="Idade">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="email">
+    <br>
+    <label for="Origem">Origem</label>
+    <br>
+    <select>
+      <option>Brazil</option>
+      <option>Uruguay</option>
+      <option>Argentina</option>
+    </select>
+    <br>
+    <label for="partida">Data da saida</label>
+    <input type="dateTime-local">
+    <br>
+    <label for="cor">Escolha uma cor</label>
+    <input type="color">
+    <input type="submit" value="Botão">
+  </form>
+</body>
+</html>

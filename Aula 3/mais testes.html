@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+  <title>Aula 3</title>
+  <meta charset="utf-8">
+  <style>
+
+  .danger{
+    border: 3px solid red;
+  }
+
+  .correct{
+    border: 3px solid green;
+  }
+
+  body{
+    background-color: #f2f2f2 ;
+    height: 100%;
+    width: 100%;
+  }
+
+  label{
+    width: 250px;
+  }
+
+  input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  </style>
+</head>
+<body>
+  <form action="#" mehtod="POST" id="cadastro" onsubmit="return validaSenha()">
+
+    <h1 id="titulo" >Este é meu exemplo de formulario</h1>
+
+    <legend>Validaremos os campos como JavaScript</legend>
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" placeholder="Insira seu nome aqui!" autofocus id="name">
+
+    <br>
+
+    <label for="senha">Senha</label>
+    <input type="password" placeholder="Senha" id="senhaA">
+
+    <br>
+
+    <label for="senha">Confirar sua senha</label>
+    <input type="password" placeholder="Confirme sua senha" id="senhaB">
+
+    <br>
+
+    <label for="idade">Sua idade</label>
+    <input type="number" placeholder="Idade">
+
+    <br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="email">
+
+    <input type="submit" value="submit">
+
+  </form>
+  <script src="meujs.js"></script>
+</body>
+</html>
